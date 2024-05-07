@@ -1,0 +1,423 @@
+@charset "UTF-8";
+
+/*
+	스타일 생성시
+	Prefix : moduleAppName
+	ex : moduleAppNameClassName
+*/
+.moduleNewAddressWrap {
+	width: 650px;
+	position: absolute;
+	z-index: 99;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	top: 200px;
+}
+.moduleLayerWrap {
+	width: 200px;
+	position: absolute;
+	z-index: 99;
+	left: 0px;
+	right: 0px;
+	margin-right: 20%;
+	margin-left: auto;
+	top: 20%;
+    font-size: small;
+}
+.moduleDetailWrap {
+	width: 550px;
+	position: absolute;
+	z-index: 99;
+	left: 0px;
+	right: 0px;
+	margin-right: 150px;
+	margin-left: auto;
+	top: 20%;
+    height: 42%;
+    font-size: small;
+}
+.moduleFile {
+    overflow: auto;
+	width: 800px;
+	position: absolute;
+	min-height: 75%;
+	max-height: 85%;
+	z-index: 99;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	top: 170px;
+    color: black;
+}
+
+#wrtContent{
+	padding: 30px;
+}
+
+.moduleManagementLIstWrap {
+	width: 75%;
+	position: absolute;
+	bottom: 30px;
+	z-index: 99;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+    max-height: 35%;
+}
+.moduleAppNameWrap {
+	width: 800px;
+	position: absolute;
+	top: 30px;
+	z-index: 99;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.moduleAppNameSliderSettingWrap {
+	position: fixed;
+	top: 10px;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	width: 390px;
+	height: 56px;
+	z-index: 99;
+}
+.moduleAppNameClose {
+	position:absolute;
+	right:10px;
+	top:8px;
+}
+h5{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.hidden {
+    display: none;
+}
+.txt_line {
+    margin-bottom: 16px;
+}
+#tblMain  {
+  border: 1px #a39485 solid;
+    font-size: .9em;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#tblMain th, td {
+  text-align: center;
+}
+  
+#tblMain thead {
+  font-weight: bold;
+  color: #fff;
+  background: black;
+}
+  
+ #tblMain td, th {
+  padding: .3em .3em;
+  vertical-align: middle;
+}
+  
+ #tblMain td {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+
+a {
+  color: #73685d;
+}
+
+/* 테이블 반응형 
+ @media all and (max-width: 1000px) {
+  #tblMain thead, tbody, th, td, tr {
+    display: block;
+  }
+  #tblMain th, td {
+    text-align: center;
+  }
+  #tblMain  {
+    display: block;
+    position: relative; 
+    padding-bottom: 0;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+  }
+  #tblMain thead {
+    float: left;
+    white-space: nowrap;
+  }
+  #tblMain tbody {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+  #tblMain tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  #tblMain th {
+    border-bottom: 1px solid #a39485;
+  }
+  #tblMain td {
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+*/
+
+.custom-btn {
+  outline: none;
+  width: 40px;
+  height: 19.5px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  background: light;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-1 {
+  transition: all 0.3s ease;
+}
+.btn-1:hover {
+   box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+}
+
+
+:root {
+	--border-color: #9d9d9d;
+}
+body {
+	word-break: keep-all;
+}
+.formBordr {
+	margin: 4rem 5%;
+}
+.formBordr h1 {
+	text-align: center;
+}
+.formBordr table {
+	border-right: 1px solid var(--border-color);
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: center;
+}
+#sanctner table {
+	width: 21rem;
+    height: 5rem;
+    table-layout: fixed;
+}
+.formBordr table th, .formBordr table td {
+	border: 1px solid var(--border-color);
+	padding: 0.2rem;
+}
+#sanctner {
+	text-align: -webkit-right;
+}
+#exmnCn table {
+	width: 100%;
+}
+#exmnCn td {
+    height: 2rem;
+}
+.formBordr table td.nullTd {
+	border-bottom: transparent;
+}
+#loan, #possesnDtls {
+	width: 15%;
+}
+#loanAddr {
+	width: 10%;
+}
+#loanNm {
+	width: 10%;
+}
+#loanNmValue, #loanPosblYn {
+	width: 20%;
+}
+.formBordr table.loan td,
+.formBordr table.wtrmsPossesn td,
+.formBordr table.loanPosblYn td,
+.formBordr table.bsrpCnExmnr td {
+	border-bottom: transparent;
+}
+.formBordr table td#bsrpCnValue, 
+.formBordr table td#exmnrValue,
+.formBordr table td#loanPosblYnValue {
+	text-align: left;
+}
+.formBordr table td#bsrpCnValue,
+.formBordr table td#exmnrValue {
+	padding: 0.5rem;
+	outline: none;
+}
+#bsrpCn, #exmnr {
+	width: 10%;
+}
+#exmnCn .exmnPhoto td {
+	max-height: 30rem;
+	height: 12rem;
+}
+.fontSj {
+	font-weight: bold;
+}
+.buttonBordr {
+	display: flex;
+}
+.buttonBordrEdit, .buttonBordrStre {
+	display: flex;
+	gap: 0.5rem;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 2rem;
+}
+.buttonBordrEdit div, .buttonBordrStre div {
+	border: 1px solid var(--border-color);
+    border-radius: 3px;
+    padding: 0.2rem;
+    width: 4rem;
+    height: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+.buttonBordrEdit div:hover, .buttonBordrStre div:hover {
+	background-color: #000;
+	color: #fff;
+}
+.buttonBordrEdit div span, .buttonBordrStre div span {
+	vertical-align: middle;
+}
+.buttonBordrEdit {
+	justify-content: flex-end;
+}
+.buttonBordrStre {
+	justify-content: flex-start;
+}
+.formBordr input {
+    width: 95%;
+    margin: 0;
+    height: -webkit-fill-available;
+    border: 1px solid #9d9d9d78;
+    outline: none;
+}
+.exmnFirst #publndSe, .exmnFirst #rm, .exmnFirst #ldcgCd {
+	width: 20%;
+}
+.exmnFirst #ar {
+	width: 40%;
+}
+.exmnPhotoTable {
+	table-layout: fixed;
+}
+#sptPhoto, #satlitPhoto {
+	text-align-last: center;
+    height: auto;
+    border: none;
+    cursor: pointer;
+}
+.exmnPhoto img {
+	width: -webkit-fill-available;
+}
+.photoContainer {
+	display: flex;
+}
+.delFileButton {
+	border: 1px solid var(--border-color);
+    width: 5rem;
+    padding: 0.2rem;
+    font-size: small;
+    background-color: #efefef;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.dsplyNone {
+	display: none;
+}
+input[type="number"] {
+	text-align: right;
+}
+.formBordr input.pdfConvert, .formBordr textarea.pdfConvert {
+ 	border-color: transparent;
+ 	color: #000;
+}
+.formBordr textarea.pdfConvert {
+ 	resize: none;
+}
+
+@media(max-width: 1140px) {
+	.formBordr {
+		margin: 4rem 3%;
+	}
+	#sanctner table {
+	    width: 18rem;
+	    height: 4rem;
+	    font-size: 0.8rem;
+	}
+}
+@media(max-width: 960px) {
+	.formBordr {
+		margin: 4rem 1%;
+	}
+}
+@media print {
+  .buttonBordr, #sptPhoto, #delSptPhoto, #satlitPhoto, #delSatlitPhoto { 
+  	display:none; 
+  }
+  .formBordr input, .formBordr textarea {
+  	border-color: transparent;
+  }
+  .formBordr textarea {
+  	resize: none;
+  }
+  input[disabled] {
+  	color: #000;
+  }
+}
+
+#closeFileClose {
+    margin-left: 94%;
+    margin-top: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    cursor: pointer;
+    color: black;
+    float: left;
+    padding: 4px 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 6px 4px 0px;
+}
+
+.pagination button.active {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.pagination button:hover:not(.active) {background-color: #ddd;}
